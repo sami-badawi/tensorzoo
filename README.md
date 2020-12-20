@@ -6,12 +6,18 @@ There is a new version of [TensorFlow Java](https://www.tensorflow.org/install/l
 
 ## Status Starter Project for TensorFlow on Scala
 
-Currently this project is the hello world project but setup in Scala. It installs cleanly on Linux, macOS and Windows.
+Currently this project is the TensorFlow Java hello world project but setup in Scala. 
+One purpose is to check how well TesnforFlow works with Scala on different platforms. 
+
+So far the results has been good: This installs cleanly on Linux, macOS and Windows.
+
+Might also test out prebuild models for TensorFlow on different platfomrs.
 
 
 ## Usage
 
 ``` sh
+cd tensorzoo
 sbt test
 sbt run
 ```
