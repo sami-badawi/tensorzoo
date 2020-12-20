@@ -6,7 +6,7 @@ There is a new version of [TensorFlow Java](https://www.tensorflow.org/install/l
 
 ## Status Starter Project for TensorFlow on Scala
 
-Currently this project is the hello world project but setup in Scala. It intalls cleanly on Linux, macOS and Windows.
+Currently this project is the hello world project but setup in Scala. It installs cleanly on Linux, macOS and Windows.
 
 
 ## Usage
