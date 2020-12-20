@@ -21,3 +21,5 @@ project/project/project/metals.sbt
 .idea
 .bloop
 .metals
+.bsp
+.vscode
