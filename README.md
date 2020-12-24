@@ -26,7 +26,7 @@ sbt run
 
 ```
 TensorFlow 2.3.1
-Scala 3.0.0-M2
+Scala 3.0.0-M3
 ```
 
 # Java Vrsions
