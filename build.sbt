@@ -1,3 +1,4 @@
+val scala2Version = "2.13.4"
 val scala3Version = "3.0.0-M3"
 
 resolvers += Resolver.sonatypeRepo("public")

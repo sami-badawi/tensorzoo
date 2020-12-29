@@ -47,8 +47,7 @@ class GraphBuilder(val g: Graph) {
 
     def binaryOp[T <: TType](typ: String, in1: Output[T], in2: Output[T]): Output[T] = {
       val builder: GraphOperationBuilder = g.opBuilder(typ, typ)
-      val res = builder.addInput(in1).addInput(in2).build().output
-      res.asInstanceOf[Output[T]]
-      // null
+      val res = builder.addInput(in1).addInput(in2).build()
+      ((n: Int) => res.output(n)).asInstanceOf[Output[T]]
     }
 }

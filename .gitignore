@@ -23,3 +23,5 @@ project/project/project/metals.sbt
 .metals
 .bsp
 .vscode
+.dotty-ide.json
+.dotty-ide-artifact
