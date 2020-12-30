@@ -30,7 +30,7 @@ Scala 3.0.0-M3
 Scala 2.13.4
 ```
 
-# Java Vrsions
+# Java Versions
 
 * Oracle JDK 8
 * OpenJDK 11
