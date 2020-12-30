@@ -27,6 +27,7 @@ sbt run
 ```
 TensorFlow 2.3.1
 Scala 3.0.0-M3
+Scala 2.13.4
 ```
 
 # Java Vrsions
@@ -41,4 +42,12 @@ It has been tested on
 * macOS 11.1
 * Ubuntu 20.04 running under WSL2
 * Windows 10
+
+## Calling Java from Scala
+
+The TensorFlow Java bindings are using Java generics that are pretty different from Scala generics.
+It is hard to call it from Scala hence [LabelImage.scala](https://github.com/sami-badawi/tensorzoo/blob/main/src/main/scala/LabelImage.scala) is currently incomplete.
+
+There is a good project [TensorFlow Scala](https://github.com/eaplatanios/tensorflow_scala) with ideomatic Scala bindigns.
+Here is a [starter project](https://github.com/sami-badawi/tf_scala_ex).
 
