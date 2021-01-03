@@ -1,6 +1,6 @@
 # TensorZoo
 
-## Monkeying around with TensorFlow Java 2.3 from Scala
+## Monkeying around with TensorFlow 2.3 Java from Scala
 
 There is a new version of [TensorFlow Java](https://www.tensorflow.org/install/lang_java) that installs easily.
 
