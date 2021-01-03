@@ -7,11 +7,11 @@ There is a new version of [TensorFlow Java](https://www.tensorflow.org/install/l
 ## Status Starter Project for TensorFlow on Scala
 
 Currently this project is the TensorFlow Java hello world project but setup in Scala. 
-One purpose is to check how well TesnforFlow works with Scala on different platforms. 
+One purpose is to check how well TensorFlow works with Scala on different platforms. 
 
 So far the results has been good: This installs cleanly on Linux, macOS and Windows.
 
-Might also test out prebuild models for TensorFlow on different platfomrs.
+Might also test out prebuild models for TensorFlow on different platforms.
 
 
 ## Usage
@@ -46,8 +46,29 @@ It has been tested on
 ## Calling Java from Scala
 
 The TensorFlow Java bindings are using Java generics that are pretty different from Scala generics.
-It is hard to call it from Scala hence [LabelImage.scala](https://github.com/sami-badawi/tensorzoo/blob/main/src/main/scala/LabelImage.scala) is currently incomplete.
 
-There is a good project [TensorFlow Scala](https://github.com/eaplatanios/tensorflow_scala) with ideomatic Scala bindigns.
+## Legacy Java and New Java Bindings
+
+### Legacy Binding
+
+[Legacy Java https://github.com/tensorflow/tensorflow/tree/master/tensorflow/java](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/java).
+
+There is better documentation for old. And LabelImage example project.
+
+### Porting Legacy Example
+
+Tried to port Legacy Java example to Scala and new Java bindings: [LabelImage.scala](https://github.com/sami-badawi/tensorzoo/blob/main/src/main/scala/LabelImage.scala). That was not easy, so it is currently incomplete.
+
+
+### New Binding
+
+[New Java https://github.com/tensorflow/java](https://github.com/tensorflow/java).
+
+Interface is quite different from legacy Java bindings.
+
+## Related Project TensorFlow Scala
+
+There is a good project [TensorFlow Scala](https://github.com/eaplatanios/tensorflow_scala) with idiomatic  Scala bindings.
 Here is a [starter project](https://github.com/sami-badawi/tf_scala_ex).
+
 
