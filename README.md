@@ -53,7 +53,7 @@ The TensorFlow Java bindings are using Java generics that are pretty different f
 
 [Legacy Java https://github.com/tensorflow/tensorflow/tree/master/tensorflow/java](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/java).
 
-There is better documentation for old. And LabelImage example project.
+There is better documentation for legacy including [LabelImage.java](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/java/src/main/java/org/tensorflow/examples/LabelImage.java) example project.
 
 ### Porting Legacy Example
 
