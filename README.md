@@ -47,9 +47,9 @@ It has been tested on
 
 The TensorFlow Java bindings are using Java generics that are pretty different from Scala generics.
 
-## Legacy Java and New Java Bindings
+## Legacy TensorFlow Java and New TensorFlow Java Bindings
 
-### Legacy Binding
+### Legacy TensorFlow Java Binding
 
 [Legacy Java https://github.com/tensorflow/tensorflow/tree/master/tensorflow/java](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/java).
 
@@ -60,7 +60,7 @@ There is better documentation for old. And LabelImage example project.
 Tried to port Legacy Java example to Scala and new Java bindings: [LabelImage.scala](https://github.com/sami-badawi/tensorzoo/blob/main/src/main/scala/LabelImage.scala). That was not easy, so it is currently incomplete.
 
 
-### New Binding
+### New TensorFlow Java Binding
 
 [New Java https://github.com/tensorflow/java](https://github.com/tensorflow/java).
 
